@@ -1,0 +1,33 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Lutz Roeder"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Digger"
+InstallDir=%CE1%\%AppName%
+
+[CEDevice]
+VersionMin=4.00
+VersionMax=4.99
+
+[DefaultInstall]
+CEShortcuts=Shortcuts
+CopyFiles=Files.Common
+
+[SourceDisksNames]
+1=,"Common1",,""
+
+[SourceDisksFiles]
+Digger.exe=1
+
+[DestinationDirs]
+Files.Common=0,%InstallDir%
+Shortcuts=0,%CE2%\Start Menu
+
+[Files.Common]
+Digger.exe,,,0
+
+[Shortcuts]
+Digger,0,Digger.exe,%CE11%
+ 

@@ -31,14 +31,14 @@ module Digger
             this._context.fillRect(0, 8 * 2, 320 * 2, 16 * 2);
 
             this._soundPlayer = new SoundPlayer();
-            this._soundPlayer.load("diamond", diamondSoundData);
-            this._soundPlayer.load("stone", stoneSoundData);
-            this._soundPlayer.load("step", stepSoundData);
+            this._soundPlayer.load("diamond", window["Diamond.wav"]);
+            this._soundPlayer.load("stone", window["Stone.wav"]);
+            this._soundPlayer.load("step", window["Step.wav"]);
 
             var self = this;
-            self.loadImage(fontImageData, function(fontImage) {
+            self.loadImage(window["Font.gif"], function(fontImage) {
                 self._fontImage = fontImage;
-                self.loadImage(spriteImageData, function(spriteImage) {
+                self.loadImage(window["Sprite.gif"], function(spriteImage) {
                     self._spriteImage = spriteImage;
                     self.start();
                 });

@@ -1,5 +1,7 @@
 # Digger
 
+[![run on repl.it](http://repl.it/badge/github/lutzroeder/digger)](https://repl.it/github/lutzroeder/digger)
+
 Boulderdash game written in JavaScript using the HTML5 canvas element. 
 
 Use cursor keys, ESC to restart, DEL to jump to the next level.

@@ -12,6 +12,7 @@
     <li>
       <a href="#description">Description</a>
     </li>
+    <li><a href="#how-to-play">How to Play</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -26,20 +27,32 @@
 </details>
 
 ## Description
-A digger game runable in browser.
+This project showcases the game Digger runnable in browser.
 
 Written in the Javascript language using the HTML5 canvas element.
-
-Controlled using the cursor keys, ESC to restart, and DEL to jump to the next level.
 
 [Open the game in browser here!](https://lutzroeder.github.io/digger)
 
 <a href="https://lutzroeder.github.io/digger"><img src=".github/screenshot.png" alt="Screenshot" width="640"></a>
 
+## How to Play
+Digger is a puzzle game in which you control an underground explorer searching for riches in treacherous underground mazes. 
+
+The primary goal of Digger is to obtain all of the golden diamond tiles on the map while avoiding any hazards or enemies traversing the screen, all within the time limit and without running out of lives.
+
+The game is controlled using the cursor keys, ESC to restart the current screen, and DEL to skip the current level andjump to the next.
+
+The player can dig through any dirt tiles and push any purple boulders into empty spaces, but beware! Boulders as well as the golden diamonds can roll onto the player and crush them if the tiles around them are destroyed. 
+
+Destroying tiles also risks releasing enemies trapped behind walls who can destroy the player if confronted recklessly. 
+
+To win, one must pay careful attention to the layout of the screen and traverse to collect the diamonds in the safest way possible while having the reflexes to quickly react to any unexpected traps.
+
 ## Getting Started
 
 ### Prerequisites
-* [node.js](https://nodejs.org/en/download/package-manager)
+* There are no prerequisites to play the game, simply click the link in the project's description.
+* If one is a developer who wishes to expand upon the game, the primary prerequisite is installation of [node.js through their website](https://nodejs.org/en/download/package-manager).
 
 ### Installation
 1. Clone the repo
@@ -66,4 +79,4 @@ Lutz Roeder - [lutzroeder.com](lutzroeder.com) - [Lutz Roeder on GitHub](https:/
 
 Project was created solely by Lutz Roeder, [whose original repository can be found here.](https://github.com/lutzroeder/digger)
 
-README updated by Ryan Coveny.
+README updated by Ryan Coveny, or Nqnt41 on GitHub.
